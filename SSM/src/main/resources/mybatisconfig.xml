@@ -10,8 +10,12 @@
         <package name="com.kuang.pojo"/>
     </typeAliases>
 
-    <mappers>
+   <!-- <mappers>
         <mapper class="com.kuang.dao.BookMapper"></mapper>
+    </mappers>-->
+
+    <mappers>
+        <mapper resource="com/kuang/dao/BookMapper.xml"/>
     </mappers>
 
 </configuration>
